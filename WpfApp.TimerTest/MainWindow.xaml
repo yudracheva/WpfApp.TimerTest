@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp.TimerTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp.TimerTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="104.238" Width="394.491" Closing="Window_Closing">
+    <Grid>
+        <Label Content="Текущее время:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label Content="00:00:00" HorizontalAlignment="Left" Margin="242,10,0,0" VerticalAlignment="Top" FontSize="30" x:Name="TickLable"/>
+    </Grid>
+</Window>
